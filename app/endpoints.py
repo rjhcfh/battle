@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from schemas import BattleRequest, BattleResponse, BattleResult, ServiceInfo
-from game_logic import battle_service
+from app.schemas import BattleRequest, BattleResponse, BattleResult, ServiceInfo
+from app.game_logic import battle_service
 
 # Создаем роутер для API
 router = APIRouter()

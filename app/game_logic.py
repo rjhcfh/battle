@@ -2,7 +2,7 @@ import random
 import uuid
 from datetime import datetime
 from typing import Dict, Tuple
-from schemas import Participant, BattleResult
+from app.schemas import Participant, BattleResult
 
 class BattleService:
     """Сервис для управления битвами"""

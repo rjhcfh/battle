@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from endpoints import router
+from app.endpoints import router
 import uvicorn
 
 # Создаем экземпляр FastAPI приложения
